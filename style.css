@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.corpo{
+    width:100%;
+    height:100%;
+    flex-shrink: 0;
+    background: #2D3840;
+    display:flex;
+}
+.opcao{
+    width: 400px;
+    height: 593px;
+    flex-shrink: 0;
+    border-right: 4px solid #39454D;
+    background: #2D3840;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.parte-direita{
+    width:850px;
+    height: 593px;
+    flex-shrink: 0;
+    background: #2D3840;
+}
+
+.lugar-dos-itens{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-left:135px;
+    margin-top: 66.5px;
+    width: 580px;
+    height: 460px;
+    background-color:transparent;
+}
+.blocos{
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    transition: all 400ms ease;
+    transform-style: preserve-3d;
+}
+
+.aposta{
+    position: absolute;
+    margin-top: 66.5px;
+    margin-left: 45px;
+    width: 200px;
+    height: 40px;
+    flex-shrink:0;
+    border-radius: 15px;
+    background: #172026;
+}
+
+.menos-aposta{
+    position: absolute;
+    margin-top: 66.5px;
+    margin-left: 255px;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #172026;
+}
+
+.mais-aposta{
+    position: absolute;
+    margin-top: 66.5px;
+    margin-left: 305px;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #172026;
+}
+
+.minas{
+    position: absolute;
+    margin-top: 156.5px;
+    margin-left: 45px;
+    width: 145px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #172026;
+}
+
+.ganho{
+    position: absolute;
+    margin-top: 156.5px;
+    margin-left:200px;
+    width: 145px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #172026;
+}
+
+.retirar{
+    display: none;
+    position: absolute;
+    margin-top: 246.5px;
+    margin-left: 45px;
+    width: 300px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: linear-gradient(92deg, #B55FD9 4%, #A750CC 100%);
+}
+
+.parag-aposta{
+    margin-left: 18px;
+    margin-top: 8px;
+    color: #FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+.parag-menos{
+    margin-left: 2px;
+    margin-bottom: 1px;
+    color: #FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+.parag-mais{
+    margin-left: 2px;
+    margin-top: 0px;
+    color: #FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+.parag-minas{
+    margin-left: 66px;
+    margin-top: 8px;
+    color: #FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+.parag-ganho{
+    margin-left: 18px;
+    margin-top: 8px;
+    color: #FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+.parag-retirar{
+    color: #FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 4.2px;
+}
+
+.legend-aposta{
+    position: absolute;
+    margin-top: 50.5px;
+    margin-left: 63px;
+    color: #FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.84px;
+}
+
+.legend-minas{
+    position: absolute;
+    margin-top: 140.5px;
+    margin-left: 63px;
+    color: #FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.84px;
+}
+
+.legend-ganho{
+    position: absolute;
+    margin-top: 140.5px;
+    margin-left:217px;
+    color: #FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.84px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.face-front{
+    display: none;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-image: url(icones/diamante-editado.png);
+}
+
+.face-back{
+    display:block;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background:  linear-gradient(180deg, #69CEE0 0%, #05B496 100%);
+}
+
+.min{
+    display: none;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-image: url(icones/bomba-editada.png);
+}
+
+.creditos{
+    position: absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 530px;
+    color:white ;
+}
